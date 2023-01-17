@@ -1,28 +1,37 @@
-body{
-    font-size: 16px;
-
-}
-
-h1{
-   
-    font-family: sans-serif, Helvetica;
+h1 {
+    color: seagreen;
     font-size: 65px;
-    color: orange;
+    font-family: sans-serif, Helvetica; 
+  }
 
-}    
+  .cor-de-fundo {
+    background-color: whitesmoke;
+  }
 
-li{
-    font-style: italic;
-    background-color: green;
-    line-height: 40px;
-    text-align: let;
-    text-decoration: underline;
-   
-}
-p{
-    font-size: 3em;
+  p {
     font-weight: 600;
-}
-#vermelha{color: red}
-#amarela{color: yellow}
-#bege{color: beige}
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  li {
+    font-style: italic;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+  }
+
+  #verde {
+    background-color: green;
+  }
+
+  #verde-escuro {
+    background-color: seagreen;
+  }
+
+  #azul {
+    background-color: blue;
+  }
