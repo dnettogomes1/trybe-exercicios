@@ -34,3 +34,57 @@ if (num > 0){
 }else{
     console.log('zero')
 }
+
+/*Utilize if/else para escrever um código que defina três constantes com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, você deve retornar uma mensagem de erro.*/
+
+
+const a = 30 
+const b = 160
+const c = 90
+
+
+if (a <= 0 || a <= 0 || c <= 0){
+    console.log("positive")
+}else if(a + b + c === 180  )
+    console.log("tringulo invalido")
+else{
+    console.log("false")
+}
+
+/*Utilize switch/case para escrever um código que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+Como desafio, escreva um código para funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
+
+Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case).
+
+Se a peça passada for inválida, o código deve retornar uma mensagem de erro.
+
+Exemplo: bishop (bispo) -> diagonals (diagonais) */
+
+
+let peca = 'peão'
+const movimento = '';
+
+switch (peca){
+    case 'peão':
+        movimento ='frente'
+        break;
+    case 'cavalo':
+        movimento ='em forma de L'
+        break;
+    case 'bispo':
+        movimento ='diagonal'
+        break;        
+    case 'tower':
+        movimento = 'horizontal e vertical'
+        break
+    case 'rainha':
+        movimento = 'diagonal, horizontal e vertical'
+        break;
+    case 'king': 
+        movimento = 'uma casa em qualquer direção'
+        break;
+    default:
+        return "peça invalida"
+
+}
+console.log(movimento)
