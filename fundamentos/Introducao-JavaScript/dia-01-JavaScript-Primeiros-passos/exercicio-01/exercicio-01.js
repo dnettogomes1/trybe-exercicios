@@ -198,7 +198,7 @@ Salário bruto acima de R$ 5.189,82: alíquota máxima de R$ 570,88
 
 IR (Imposto de Renda)
 
-Até R$ 1.903,98: isento de imposto de renda
+Até R$ 1.903,98: isento de imposto de rendas
 
 De R$ 1.903,99 a 2.826,65: alíquota de 7,5% e parcela de R$ 142,80 a deduzir do imposto
 
