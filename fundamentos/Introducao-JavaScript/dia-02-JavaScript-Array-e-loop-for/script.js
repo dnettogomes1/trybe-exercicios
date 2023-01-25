@@ -69,7 +69,68 @@ for (let index = 0; index < numbers.length; index += 1){
 }
 media = soma / numbers.length
 if (media > 20){
-  console.log(“valor maior que 20”);
+  console.log('valor maior que 20');
 }else{
-  console.log(valor menor ou igual a 20”)
+  console.log('valor menor ou igual a 20')
 }
+
+/*Utilizando for, descubra qual o maior valor contido no array e imprima-o;*/
+
+
+let numeroMaior = 0
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+for (let index = 0; index < numbers.length; index += 1){
+    if(numbers[index] > numeroMaior){
+      numeroMaior = numbers[index]
+    }
+}
+console.log(numeroMaior)
+
+/*Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, impm:rima a mensage “nenhum valor ímpar encontrado”;*/
+
+let numeroImpar = 0
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+for (let index = 0; index < numbers.length; index += 1){
+  if(numbers[index] % 2 !==0){
+    numeroImpar += 1
+  }
+}
+if(numeroImpar > 1){ 
+console.log(numeroImpar)
+}else{
+  console.log('nenhum valor ímpar encontrado');
+}
+
+/* Utilizando for, descubra qual o menor valor contido no array e imprima-o; */
+
+
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numeroMenor = numbers[0]
+for (let index = 0; index < numbers.length; index += 1){
+    if(numbers[index] < numeroMenor){
+      numeroMenor = numbers[index]      
+    }
+}
+console.log(numeroMenor)
+
+/*Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;*/
+
+let numbersVinteCinco = [];
+for(let index = 0; index <=25; index += 1){
+  numbersVinteCinco.push(index)
+} 
+console.log(numbersVinteCinco)
+
+/*Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.*/
+
+
+let numbersVinteCinco = [];
+for(let index = 0; index <=25; index += 1){
+  numbersVinteCinco.push(index)
+} 
+console.log(numbersVinteCinco)
+
+for(let index = 0; index <=25; index += 1){
+ console.log(numbersVinteCinco[index] / 2)
+} 
