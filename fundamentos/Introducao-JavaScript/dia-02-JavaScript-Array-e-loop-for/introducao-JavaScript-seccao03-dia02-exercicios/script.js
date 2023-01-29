@@ -134,3 +134,10 @@ console.log(numbersVinteCinco)
 for(let index = 0; index <=25; index += 1){
  console.log(numbersVinteCinco[index] / 2)
 } 
+for (let index = 0; index < array.length; index++) {
+  const element = array[index];
+  
+}
+
+
+let escolhas
